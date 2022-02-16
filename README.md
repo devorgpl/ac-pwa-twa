@@ -40,7 +40,7 @@ There is also pwabuilder.com site which uses bubblewrap to generate apk and it c
     
       Caused by: java.lang.IllegalStateException: Failed to find target with hash string 'android-31' in: /usr/lib/android-sdk/cmdline-tools
     but the second build works.
-
+- Can't put .well-known/assetlinks.json to github pages, should be served on other server
 
 ## Sources:
 
