@@ -1,0 +1,39 @@
+{
+  "packageId": "io.github.devorgpl.twa",
+  "host": "devorgpl.github.io",
+  "name": "PWA Starter",
+  "launcherName": "starter",
+  "display": "standalone",
+  "themeColor": "#E1477E",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#E1477E",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://devorgpl.github.io/sample-pwa/dist/assets/icons/icon_512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://devorgpl.github.io/sample-pwa/dist/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "any",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}
+
