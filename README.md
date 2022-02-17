@@ -28,7 +28,11 @@ Now in ```out``` folder You have an android project with ready to use ```apk``` 
 
 After installing apk on Your phone (using adb or installing the file) there will be a status bar from Chrome visible on top. This one should dissapear after Digital Asset Links file is attached and when it's installed from Google Play Store.
 
+Digital Asset Links json file can be downloaded from Play Console on ```Configuration->Application Integrity``` on the bottom of that page.
+
 There is also pwabuilder.com site which uses bubblewrap to generate apk and it can also generate applications for IOS or MS store. Currently it works only using Their site, but cli tool is in progress (currently not working at all)
+
+Once created TWA works with given PWA url, so no further updates are needed in the application. It'll share cache with Chrome browser, so all changes are visible in both.
 
 
 ## Issues
